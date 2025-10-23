@@ -40,15 +40,21 @@ print(df)
 <img width="988" height="342" alt="image" src="https://github.com/user-attachments/assets/27a0e809-a887-4109-aa33-448a9026d8b3" />
 
 import pandas as pd 
+
 data  = pd.read_csv("titanic_dataset.csv")
+
 df = pd.DataFrame(data)
+
 df.info()
 
 <img width="289" height="302" alt="image" src="https://github.com/user-attachments/assets/c243c844-b821-4d37-801f-adf899ac5840" />
 
 import pandas as pd 
+
 data  = pd.read_csv("titanic_dataset.csv")
+
 df = pd.DataFrame(data)
+
 df.nunique()
 
 <img width="155" height="213" alt="image" src="https://github.com/user-attachments/assets/e4889c64-9126-4306-97b4-8249384e30b8" />
@@ -58,12 +64,14 @@ df["Survived"].value_counts()
 <img width="192" height="69" alt="image" src="https://github.com/user-attachments/assets/48c66461-9e37-47f6-bbc2-5c578caac9f9" />
 
 percentage  = ((df["Survived"].value_counts())/(df.shape[0])*100).round(2)
+
 print(percentage)
 
 <img width="547" height="35" alt="image" src="https://github.com/user-attachments/assets/13217f1f-784e-4779-acc8-5841078c4c01" />
 
 
 percentage  = ((df["Survived"].value_counts())/(df.shape[0])*100).round(2)
+
 print(percentage)
 
 
